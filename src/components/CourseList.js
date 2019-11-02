@@ -33,7 +33,7 @@ function CourseList(props) {
             <tr key={course.id}>
               <td>
                 <button
-                  className="btn btn-outline-danger"
+                  className="btn btn-warning"
                   onClick={() => { if (window.confirm('Are you sure you wish to delete this item?')) props.deleteCourse(course.id) } }
                 >
                   Delete
